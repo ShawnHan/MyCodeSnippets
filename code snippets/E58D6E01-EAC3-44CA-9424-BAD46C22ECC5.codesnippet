@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>hl_cell</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+ (instancetype)cellWithTableView:(UITableView *)tableView
+{
+    static NSString *identifier = @"&lt;#name#&gt;";
+    &lt;#type#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    if (!cell) {
+        cell = [[&lt;#type#&gt; alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+    }
+    return cell;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E58D6E01-EAC3-44CA-9424-BAD46C22ECC5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>self define tableViewCell</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>self define tableViewCell class</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
